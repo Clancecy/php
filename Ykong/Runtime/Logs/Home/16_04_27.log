@@ -1,0 +1,801 @@
+[ 2016-04-27T14:44:05+08:00 ] ::1 /yuankong/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.378480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.378632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019995s ]
+
+[ 2016-04-27T14:44:11+08:00 ] ::1 /yuankong/home/user/checkuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002804s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1678s ]
+NOTIC: [8] Undefined index: validate F:\Code\php\yuankong\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\Code\php\yuankong\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `No`,`Email` FROM `user` WHERE `Name` = 'chen' AND `Passwd` = 'rppt' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2016-04-27T14:44:38+08:00 ] ::1 /yuankong/home/user/checkuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0352s ]
+NOTIC: [8] Undefined index: validate F:\Code\php\yuankong\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\Code\php\yuankong\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `No`,`Email` FROM `user` WHERE `Name` = 'chen' AND `Passwd` = 'rppt' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002519s ]
+
+[ 2016-04-27T14:44:43+08:00 ] ::1 /yuankong/home/user/checkuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0336s ]
+NOTIC: [8] Undefined index: validate F:\Code\php\yuankong\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\Code\php\yuankong\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `No`,`Email` FROM `user` WHERE `Name` = 'chen' AND `Passwd` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-04-27T14:44:44+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.402353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.402533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002810s ]
+
+[ 2016-04-27T14:44:46+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001705s ]
+
+[ 2016-04-27T14:44:47+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.3529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2016-04-27T14:44:47+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2016-04-27T14:44:47+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0492s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2016-04-27T14:45:18+08:00 ] ::1 /yuankong/home/index/getxy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0319s ]
+SQL: SELECT `x`,`y`,`position` FROM `phone` WHERE ( No=1 ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001890s ]
+
+[ 2016-04-27T14:45:31+08:00 ] ::1 /yuankong/home/index/getxy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0315s ]
+SQL: SELECT `x`,`y`,`position` FROM `phone` WHERE ( No=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2016-04-27T14:45:33+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2016-04-27T14:45:36+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2016-04-27T14:45:37+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0332s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.4624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2016-04-27T14:45:37+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2016-04-27T14:45:38+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0748s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2016-04-27T14:45:39+08:00 ] ::1 /yuankong/home/index/getxy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.2288s ]
+SQL: SELECT `x`,`y`,`position` FROM `phone` WHERE ( No=1 ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2016-04-27T14:45:45+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002798s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2016-04-27T14:45:47+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002432s ]
+
+[ 2016-04-27T14:45:48+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0264s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.5183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2016-04-27T14:45:48+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-04-27T14:45:48+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0259s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001681s ]
+
+[ 2016-04-27T14:53:04+08:00 ] ::1 /yuankong/home/index/getxy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0307s ]
+SQL: SELECT `x`,`y`,`position` FROM `phone` WHERE ( No=1 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002243s ]
+
+[ 2016-04-27T15:01:49+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008836s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002234s ]
+
+[ 2016-04-27T15:01:55+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2016-04-27T15:01:56+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0385s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.5237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2016-04-27T15:01:56+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0907s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2016-04-27T15:01:56+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001973s ]
+
+[ 2016-04-27T15:02:55+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006348s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.253319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.253532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006983s ]
+
+[ 2016-04-27T15:02:58+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2016-04-27T15:02:59+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0247s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0016s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.3919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2016-04-27T15:02:59+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2016-04-27T15:02:59+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0227s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001717s ]
+
+[ 2016-04-27T15:02:59+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2016-04-27T15:03:03+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2016-04-27T15:03:05+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0314s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:1.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2016-04-27T15:03:05+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2016-04-27T15:03:05+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2016-04-27T15:03:25+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-04-27T15:03:27+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2016-04-27T15:03:28+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.6134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001571s ]
+
+[ 2016-04-27T15:03:28+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0272s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+
+[ 2016-04-27T15:03:28+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2016-04-27T15:03:28+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2016-04-27T15:03:32+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001924s ]
+
+[ 2016-04-27T15:03:32+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.3807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2016-04-27T15:03:33+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0336s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2016-04-27T15:03:33+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2016-04-27T15:05:46+08:00 ] ::1 /yuankong/index.php/Home/User/Map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+NOTIC: [8] Use of undefined constant Map - assumed 'Map' F:\Code\php\yuankong\Ykong\Home\Controller\UserController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2016-04-27T15:05:48+08:00 ] ::1 /yuankong/home/user/getsession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-04-27T15:05:49+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0633s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard0' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.4714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2016-04-27T15:05:49+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2016-04-27T15:05:49+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002067s ]
+

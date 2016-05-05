@@ -1,0 +1,121 @@
+[ 2016-04-15T20:48:07+08:00 ] ::1 /yuankong/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032240s ]
+
+[ 2016-04-15T20:48:08+08:00 ] ::1 /yuankong/index.php/Home/Index/Map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.435139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.435313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023289s ]
+
+[ 2016-04-15T20:48:11+08:00 ] ::1 /yuankong/home/index/before
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0659s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0609s ]
+SQL: SELECT * FROM `tree` WHERE `text` = '手机存储' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/sdcard' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tree` WHERE `text` = 'SD卡' AND `tid` = 0 AND `state` = 'closed' AND `path` = '/storage/sdcard1' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.0845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2016-04-15T20:48:11+08:00 ] ::1 /yuankong/home/index/getxy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0301s ]
+SQL: SELECT `x`,`y` FROM `phone` WHERE ( No=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2016-04-15T20:48:11+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='0' )  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2016-04-15T20:48:11+08:00 ] ::1 /yuankong/index.php/Home/Index/often
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003858s ]
+SQL: SHOW COLUMNS FROM `often` [ RunTime:0.0532s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `often` WHERE ( tid='0' )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+
+[ 2016-04-15T20:48:25+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011886s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0154s ]
+SQL: SELECT `path` FROM `tree` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.2898s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='1' )  [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2016-04-15T20:48:36+08:00 ] ::1 /yuankong/index.php/Home/Index/tree
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `tree` [ RunTime:0.0313s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.0259s ]
+SQL: SELECT `path` FROM `tree` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='2' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='2' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `phone` SET `read`='0' WHERE `No` = 1 [ RunTime:0.7779s ]
+SQL: SELECT * FROM `tree` WHERE ( tid='2' )  [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
